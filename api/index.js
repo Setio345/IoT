@@ -24,7 +24,7 @@ bot.onText(/\/show_url/, (msg) => {
     bot.sendMessage(
         global_msg_id,
         `
-            https://esp-telegrambot.herokuapp.com/api/sensor/123/65/78 \n
+            https://esp-telegrambot.herokuapp.com/api/sensor/ \n
             https://esp-telebot.herokuapp.com/api/test/cobacoba
         `
     );
