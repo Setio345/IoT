@@ -24,7 +24,8 @@ bot.onText(/\/show_url/, (msg) => {
     bot.sendMessage(
         global_msg_id,
         `
-            Contoh URL::/https://esp-telebot.herokuapp.com/api/sensor/123/65/78 \nhttps://esp-telebot.herokuapp.com/api/test/cobacoba
+            https://esp-telegrambot.herokuapp.com/api/sensor/123/65/78 \n
+            https://esp-telebot.herokuapp.com/api/test/cobacoba
         `
     );
 });
@@ -42,7 +43,7 @@ router.get('/', (req, res, next) => {
   });
 });
 
-// https://esp-telebot.herokuapp.com/api/sensor/123/65/78
+// https://esp-telegrambot.herokuapp.com/api/sensor/123/65/78
 router.get('/sensor/:sensor1/:sensor2/:sensor3', (req, res, next) => {
   try {
       bot.sendMessage(
